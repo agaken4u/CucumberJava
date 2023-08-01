@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 import org.testng.annotations.DataProvider;
 
 
-@CucumberOptions(features = "src/test/resources/features",
+@CucumberOptions(features = "src/test/resources/features/",
         glue = {"com.qa.mystepdefs"},
         plugin = {"pretty", "html:target/cucumber-reports", "json:target/cucumber.json"},
         monochrome = true,
