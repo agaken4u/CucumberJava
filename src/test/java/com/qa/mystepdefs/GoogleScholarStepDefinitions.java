@@ -58,6 +58,7 @@ public class GoogleScholarStepDefinitions {
             googleScholarPage.searchBoxLocator("Digital privacy");
         } else {
         	
+        
             // Handle other scenarios if needed
         }
     }
